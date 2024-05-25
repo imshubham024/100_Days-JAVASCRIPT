@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please enter a number between 5 to 20</h1>
+    <input type="text" id="demo" placeholder="6" >
+    <button type="button" onclick="handle_err()">Test Input</button>
+    <p id="Display"></p>
+    <script>
+        function handle_err(){
+            const message=document.getElementById("Display");
+            message.innerHTML="";
+            let excep=document.getElementById("demo").value;
+            try{
+                if(excep.trim()=="")throw"Empty";
+                if(isNaN(excep)) throw"Not a number";
+                excep=Number(excep);
+                if(excep<5)throw"Number is less than 5";
+                if(excep>20)throw"Number is greater than 20";
+            }
+            catch(err){
+                message.innerHTML=err;
+            }
+        }
+    </script>
+
+
+</body>
+</html>
