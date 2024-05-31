@@ -8,3 +8,18 @@ const sum = (n) => {
 }
 
 console.log(sum(1234));  // Output: 10
+
+
+
+//++++++++++++++++++++++++
+
+
+
+let sum2=(n)=>{
+    let arr=Array.from(string(n));
+    return arr.reduce((acc,curr)=>acc+curr,0)
+}
+
+
+let ko=1234;
+console.log(String(ko))
