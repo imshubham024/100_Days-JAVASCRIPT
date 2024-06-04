@@ -4,4 +4,4 @@ function remove(nn) {
 }
 
 let ko = [466, 45, 97, 97];
-console.log(remove(ko));
+console.log(remove(ko));//54

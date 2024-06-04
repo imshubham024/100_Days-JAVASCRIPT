@@ -6,4 +6,4 @@ const Camel = (Arr) => {
     return Arr.join("");
 }
 
-console.log(Camel("Shubham gupta"));
+console.log(Camel("Shubham gupta"));// output =>ShubhamGupta
