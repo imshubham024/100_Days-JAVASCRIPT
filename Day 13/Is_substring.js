@@ -2,7 +2,7 @@ const Check=(str,substr)=>{
     return str.toUpperCase().startsWith(substr.toUpperCase())
 }
 
-//
+
 
 
 
