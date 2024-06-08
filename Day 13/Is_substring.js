@@ -6,4 +6,4 @@ const Check=(str,substr)=>{
 
 
 //
-console.log(Check("shubham","shubh"));
+console.log(Check("shubham","shubh"));//
