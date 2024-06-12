@@ -4,5 +4,5 @@ let mean = (given) => {
     return sum / count;
 }
 
-let str = [1, 2, 3, 4];//
+let str = [1, 2, 3, 4];
 console.log(mean(str)); // Outputs: 2.5
